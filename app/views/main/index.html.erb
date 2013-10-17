@@ -1,0 +1,93 @@
+<% if !@current_track.nil? %>
+
+<center>
+<br>
+<h2>Artist : <%= @current_track.artist %></h2>
+<h2>Song : <%= @current_track.song %></h2>
+<br>
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+        width="500"
+	 height="42"
+	 id="haxe"
+	 align="middle">
+<param name="movie" value="/simpleplay.swf"/>
+<param name="allowScriptAccess" value="always" />
+<param name="quality" value="high" />
+<param name="scale" value="noscale" />
+<param name="salign" value="lt" />
+<param name="bgcolor" value="#eeeeee"/>
+<embed src="/simpleplay.swf"
+	   FlashVars="song_url=/CAL500_32kps/<%= @current_track.filename %>.mp3"
+       bgcolor="#eeeeee"
+       width="500"
+       height="42"
+       name="simpleplay"
+       quality="high"
+       align="middle"
+       allowScriptAccess="always"
+       type="application/x-shockwave-flash"
+       pluginspage="http://www.macromedia.com/go/getflashplayer" /
+</center>
+<br>
+
+<% end %>
+
+<div class="yui-gb">
+  <div class="yui-u first">
+	<h1>Track</h1>
+	<table>
+	  <% @tracks.each do |n| %>
+		<tr>
+		  <td class="center"><%= link_to n.artist, :action => 'index', :id => n %></td>
+		</tr>
+	  <% end %>
+	</table>
+  </div>
+  <div class="yui-u">
+
+	<h1>Ground Truth</h1>
+
+	<% if !@current_track.nil? %>
+	  <table>
+		<% @gt_tags.each do |n| %>
+		  <tr>
+			<td class="center">
+			  <div
+				<% if @pred_tags.include? n %>
+				  class="match"
+				<% end %>
+				>
+
+			  <%= n.name %>
+			  </div>
+			</td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+	
+  </div>
+  <div class="yui-u">
+	<h1>Prediction</h1>
+
+	<% if !@current_track.nil? %>
+	  <table>
+		<% @pred_tags.each do |n| %>
+		  <tr>
+			<td class="center">
+			  <div
+				<% if @gt_tags.include? n %>
+				  class="match"
+				<% end %>
+				>
+			  <%= n.name %>
+			</td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+
+  </div>
+</div>
+
+

@@ -1,0 +1,9 @@
+<select name="toppings" multiple size=50>
+
+<% @songs.each do |n| %>
+
+  <option value="<%= n.name %>"><%= n.name %>
+
+<% end %>
+
+</select>

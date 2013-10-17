@@ -1,0 +1,3 @@
+
+./choose_artist_cal500.rb cal500_ground_truth.txt stacked_binary.txt 
+

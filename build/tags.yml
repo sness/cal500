@@ -1,0 +1,697 @@
+---
+- !ruby/object:Tag
+  attributes: 
+    id: 1
+    name: Emotion-Angry_/_Agressive
+- !ruby/object:Tag
+  attributes: 
+    id: 2
+    name: Emotion-Arousing_/_Awakening
+- !ruby/object:Tag
+  attributes: 
+    id: 3
+    name: Emotion-Bizarre_/_Weird
+- !ruby/object:Tag
+  attributes: 
+    id: 4
+    name: Emotion-Calming_/_Soothing
+- !ruby/object:Tag
+  attributes: 
+    id: 5
+    name: Emotion-Carefree_/_Lighthearted
+- !ruby/object:Tag
+  attributes: 
+    id: 6
+    name: Emotion-Cheerful_/_Festive
+- !ruby/object:Tag
+  attributes: 
+    id: 7
+    name: Emotion-Emotional_/_Passionate
+- !ruby/object:Tag
+  attributes: 
+    id: 8
+    name: Emotion-Exciting_/_Thrilling
+- !ruby/object:Tag
+  attributes: 
+    id: 9
+    name: Emotion-Happy
+- !ruby/object:Tag
+  attributes: 
+    id: 10
+    name: Emotion-Laid-back_/_Mellow
+- !ruby/object:Tag
+  attributes: 
+    id: 11
+    name: Emotion-Light_/_Playful
+- !ruby/object:Tag
+  attributes: 
+    id: 12
+    name: Emotion-Loving_/_Romantic
+- !ruby/object:Tag
+  attributes: 
+    id: 13
+    name: Emotion-Pleasant_/_Comfortable
+- !ruby/object:Tag
+  attributes: 
+    id: 14
+    name: Emotion-Positive_/_Optimistic
+- !ruby/object:Tag
+  attributes: 
+    id: 15
+    name: Emotion-Powerful_/_Strong
+- !ruby/object:Tag
+  attributes: 
+    id: 16
+    name: Emotion-Sad
+- !ruby/object:Tag
+  attributes: 
+    id: 17
+    name: Emotion-Tender_/_Soft
+- !ruby/object:Tag
+  attributes: 
+    id: 18
+    name: Emotion-Touching_/_Loving
+- !ruby/object:Tag
+  attributes: 
+    id: 19
+    name: Genre--_Alternative
+- !ruby/object:Tag
+  attributes: 
+    id: 20
+    name: Genre--_Alternative_Folk
+- !ruby/object:Tag
+  attributes: 
+    id: 21
+    name: Genre--_Bebop
+- !ruby/object:Tag
+  attributes: 
+    id: 22
+    name: Genre--_Brit_Pop
+- !ruby/object:Tag
+  attributes: 
+    id: 23
+    name: Genre--_Classic_Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 24
+    name: Genre--_Contemporary_Blues
+- !ruby/object:Tag
+  attributes: 
+    id: 25
+    name: Genre--_Contemporary_R&B
+- !ruby/object:Tag
+  attributes: 
+    id: 26
+    name: Genre--_Cool_Jazz
+- !ruby/object:Tag
+  attributes: 
+    id: 27
+    name: Genre--_Country_Blues
+- !ruby/object:Tag
+  attributes: 
+    id: 28
+    name: Genre--_Dance_Pop
+- !ruby/object:Tag
+  attributes: 
+    id: 29
+    name: Genre--_Electric_Blues
+- !ruby/object:Tag
+  attributes: 
+    id: 30
+    name: Genre--_Funk
+- !ruby/object:Tag
+  attributes: 
+    id: 31
+    name: Genre--_Gospel
+- !ruby/object:Tag
+  attributes: 
+    id: 32
+    name: Genre--_Metal/Hard_Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 33
+    name: Genre--_Punk
+- !ruby/object:Tag
+  attributes: 
+    id: 34
+    name: Genre--_Roots_Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 35
+    name: Genre--_Singer_/_Songwriter
+- !ruby/object:Tag
+  attributes: 
+    id: 36
+    name: Genre--_Soft_Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 37
+    name: Genre--_Soul
+- !ruby/object:Tag
+  attributes: 
+    id: 38
+    name: Genre--_Swing
+- !ruby/object:Tag
+  attributes: 
+    id: 39
+    name: Genre-Best--_Alternative
+- !ruby/object:Tag
+  attributes: 
+    id: 40
+    name: Genre-Best--_Classic_Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 41
+    name: Genre-Best--_Metal/Hard_Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 42
+    name: Genre-Best--_Punk
+- !ruby/object:Tag
+  attributes: 
+    id: 43
+    name: Genre-Best--_Soft_Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 44
+    name: Genre-Best--_Soul
+- !ruby/object:Tag
+  attributes: 
+    id: 45
+    name: Genre-Best-Blues
+- !ruby/object:Tag
+  attributes: 
+    id: 46
+    name: Genre-Best-Country
+- !ruby/object:Tag
+  attributes: 
+    id: 47
+    name: Genre-Best-Electronica
+- !ruby/object:Tag
+  attributes: 
+    id: 48
+    name: Genre-Best-Folk
+- !ruby/object:Tag
+  attributes: 
+    id: 49
+    name: Genre-Best-Hip_Hop/Rap
+- !ruby/object:Tag
+  attributes: 
+    id: 50
+    name: Genre-Best-Jazz
+- !ruby/object:Tag
+  attributes: 
+    id: 51
+    name: Genre-Best-Pop
+- !ruby/object:Tag
+  attributes: 
+    id: 52
+    name: Genre-Best-R&B
+- !ruby/object:Tag
+  attributes: 
+    id: 53
+    name: Genre-Best-Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 54
+    name: Genre-Best-World
+- !ruby/object:Tag
+  attributes: 
+    id: 55
+    name: Genre-Bluegrass
+- !ruby/object:Tag
+  attributes: 
+    id: 56
+    name: Genre-Blues
+- !ruby/object:Tag
+  attributes: 
+    id: 57
+    name: Genre-Country
+- !ruby/object:Tag
+  attributes: 
+    id: 58
+    name: Genre-Electronica
+- !ruby/object:Tag
+  attributes: 
+    id: 59
+    name: Genre-Folk
+- !ruby/object:Tag
+  attributes: 
+    id: 60
+    name: Genre-Hip_Hop/Rap
+- !ruby/object:Tag
+  attributes: 
+    id: 61
+    name: Genre-Jazz
+- !ruby/object:Tag
+  attributes: 
+    id: 62
+    name: Genre-Pop
+- !ruby/object:Tag
+  attributes: 
+    id: 63
+    name: Genre-R&B
+- !ruby/object:Tag
+  attributes: 
+    id: 64
+    name: Genre-Rock
+- !ruby/object:Tag
+  attributes: 
+    id: 65
+    name: Genre-World
+- !ruby/object:Tag
+  attributes: 
+    id: 66
+    name: Instrument_-_Acoustic_Guitar
+- !ruby/object:Tag
+  attributes: 
+    id: 67
+    name: Instrument_-_Acoustic_Guitar-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 68
+    name: Instrument_-_Ambient_Sounds
+- !ruby/object:Tag
+  attributes: 
+    id: 69
+    name: Instrument_-_Backing_vocals
+- !ruby/object:Tag
+  attributes: 
+    id: 70
+    name: Instrument_-_Bass
+- !ruby/object:Tag
+  attributes: 
+    id: 71
+    name: Instrument_-_Drum_Machine
+- !ruby/object:Tag
+  attributes: 
+    id: 72
+    name: Instrument_-_Drum_Set
+- !ruby/object:Tag
+  attributes: 
+    id: 73
+    name: Instrument_-_Electric_Guitar_(clean)
+- !ruby/object:Tag
+  attributes: 
+    id: 74
+    name: Instrument_-_Electric_Guitar_(clean)-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 75
+    name: Instrument_-_Electric_Guitar_(distorted)
+- !ruby/object:Tag
+  attributes: 
+    id: 76
+    name: Instrument_-_Electric_Guitar_(distorted)-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 77
+    name: Instrument_-_Female_Lead_Vocals
+- !ruby/object:Tag
+  attributes: 
+    id: 78
+    name: Instrument_-_Female_Lead_Vocals-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 79
+    name: Instrument_-_Hand_Drums
+- !ruby/object:Tag
+  attributes: 
+    id: 80
+    name: Instrument_-_Harmonica
+- !ruby/object:Tag
+  attributes: 
+    id: 81
+    name: Instrument_-_Harmonica-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 82
+    name: Instrument_-_Horn_Section
+- !ruby/object:Tag
+  attributes: 
+    id: 83
+    name: Instrument_-_Male_Lead_Vocals
+- !ruby/object:Tag
+  attributes: 
+    id: 84
+    name: Instrument_-_Male_Lead_Vocals-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 85
+    name: Instrument_-_Organ
+- !ruby/object:Tag
+  attributes: 
+    id: 86
+    name: Instrument_-_Piano
+- !ruby/object:Tag
+  attributes: 
+    id: 87
+    name: Instrument_-_Piano-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 88
+    name: Instrument_-_Samples
+- !ruby/object:Tag
+  attributes: 
+    id: 89
+    name: Instrument_-_Saxophone
+- !ruby/object:Tag
+  attributes: 
+    id: 90
+    name: Instrument_-_Saxophone-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 91
+    name: Instrument_-_Sequencer
+- !ruby/object:Tag
+  attributes: 
+    id: 92
+    name: Instrument_-_String_Ensemble
+- !ruby/object:Tag
+  attributes: 
+    id: 93
+    name: Instrument_-_Synthesizer
+- !ruby/object:Tag
+  attributes: 
+    id: 94
+    name: Instrument_-_Tambourine
+- !ruby/object:Tag
+  attributes: 
+    id: 95
+    name: Instrument_-_Trombone
+- !ruby/object:Tag
+  attributes: 
+    id: 96
+    name: Instrument_-_Trumpet
+- !ruby/object:Tag
+  attributes: 
+    id: 97
+    name: Instrument_-_Trumpet-Solo
+- !ruby/object:Tag
+  attributes: 
+    id: 98
+    name: Instrument_-_Violin/Fiddle
+- !ruby/object:Tag
+  attributes: 
+    id: 99
+    name: NOT-Emotion-Angry_/_Agressive
+- !ruby/object:Tag
+  attributes: 
+    id: 100
+    name: NOT-Emotion-Arousing_/_Awakening
+- !ruby/object:Tag
+  attributes: 
+    id: 101
+    name: NOT-Emotion-Bizarre_/_Weird
+- !ruby/object:Tag
+  attributes: 
+    id: 102
+    name: NOT-Emotion-Calming_/_Soothing
+- !ruby/object:Tag
+  attributes: 
+    id: 103
+    name: NOT-Emotion-Carefree_/_Lighthearted
+- !ruby/object:Tag
+  attributes: 
+    id: 104
+    name: NOT-Emotion-Cheerful_/_Festive
+- !ruby/object:Tag
+  attributes: 
+    id: 105
+    name: NOT-Emotion-Emotional_/_Passionate
+- !ruby/object:Tag
+  attributes: 
+    id: 106
+    name: NOT-Emotion-Exciting_/_Thrilling
+- !ruby/object:Tag
+  attributes: 
+    id: 107
+    name: NOT-Emotion-Happy
+- !ruby/object:Tag
+  attributes: 
+    id: 108
+    name: NOT-Emotion-Laid-back_/_Mellow
+- !ruby/object:Tag
+  attributes: 
+    id: 109
+    name: NOT-Emotion-Light_/_Playful
+- !ruby/object:Tag
+  attributes: 
+    id: 110
+    name: NOT-Emotion-Loving_/_Romantic
+- !ruby/object:Tag
+  attributes: 
+    id: 111
+    name: NOT-Emotion-Pleasant_/_Comfortable
+- !ruby/object:Tag
+  attributes: 
+    id: 112
+    name: NOT-Emotion-Positive_/_Optimistic
+- !ruby/object:Tag
+  attributes: 
+    id: 113
+    name: NOT-Emotion-Powerful_/_Strong
+- !ruby/object:Tag
+  attributes: 
+    id: 114
+    name: NOT-Emotion-Sad
+- !ruby/object:Tag
+  attributes: 
+    id: 115
+    name: NOT-Emotion-Tender_/_Soft
+- !ruby/object:Tag
+  attributes: 
+    id: 116
+    name: NOT-Emotion-Touching_/_Loving
+- !ruby/object:Tag
+  attributes: 
+    id: 117
+    name: NOT-Song-Catchy/Memorable
+- !ruby/object:Tag
+  attributes: 
+    id: 118
+    name: NOT-Song-Changing_Energy_Level
+- !ruby/object:Tag
+  attributes: 
+    id: 119
+    name: NOT-Song-Fast_Tempo
+- !ruby/object:Tag
+  attributes: 
+    id: 120
+    name: NOT-Song-Heavy_Beat
+- !ruby/object:Tag
+  attributes: 
+    id: 121
+    name: NOT-Song-High_Energy
+- !ruby/object:Tag
+  attributes: 
+    id: 122
+    name: NOT-Song-Like
+- !ruby/object:Tag
+  attributes: 
+    id: 123
+    name: NOT-Song-Positive_Feelings
+- !ruby/object:Tag
+  attributes: 
+    id: 124
+    name: NOT-Song-Quality
+- !ruby/object:Tag
+  attributes: 
+    id: 125
+    name: NOT-Song-Recommend
+- !ruby/object:Tag
+  attributes: 
+    id: 126
+    name: NOT-Song-Recorded
+- !ruby/object:Tag
+  attributes: 
+    id: 127
+    name: NOT-Song-Tonality
+- !ruby/object:Tag
+  attributes: 
+    id: 128
+    name: NOT-Song-Very_Danceable
+- !ruby/object:Tag
+  attributes: 
+    id: 129
+    name: Song-Catchy/Memorable
+- !ruby/object:Tag
+  attributes: 
+    id: 130
+    name: Song-Changing_Energy_Level
+- !ruby/object:Tag
+  attributes: 
+    id: 131
+    name: Song-Fast_Tempo
+- !ruby/object:Tag
+  attributes: 
+    id: 132
+    name: Song-Heavy_Beat
+- !ruby/object:Tag
+  attributes: 
+    id: 133
+    name: Song-High_Energy
+- !ruby/object:Tag
+  attributes: 
+    id: 134
+    name: Song-Like
+- !ruby/object:Tag
+  attributes: 
+    id: 135
+    name: Song-Positive_Feelings
+- !ruby/object:Tag
+  attributes: 
+    id: 136
+    name: Song-Quality
+- !ruby/object:Tag
+  attributes: 
+    id: 137
+    name: Song-Recommend
+- !ruby/object:Tag
+  attributes: 
+    id: 138
+    name: Song-Recorded
+- !ruby/object:Tag
+  attributes: 
+    id: 139
+    name: Song-Texture_Acoustic
+- !ruby/object:Tag
+  attributes: 
+    id: 140
+    name: Song-Texture_Electric
+- !ruby/object:Tag
+  attributes: 
+    id: 141
+    name: Song-Texture_Synthesized
+- !ruby/object:Tag
+  attributes: 
+    id: 142
+    name: Song-Tonality
+- !ruby/object:Tag
+  attributes: 
+    id: 143
+    name: Song-Very_Danceable
+- !ruby/object:Tag
+  attributes: 
+    id: 144
+    name: Usage-At_a_party
+- !ruby/object:Tag
+  attributes: 
+    id: 145
+    name: Usage-At_work
+- !ruby/object:Tag
+  attributes: 
+    id: 146
+    name: Usage-Cleaning_the_house
+- !ruby/object:Tag
+  attributes: 
+    id: 147
+    name: Usage-Driving
+- !ruby/object:Tag
+  attributes: 
+    id: 148
+    name: Usage-Exercising
+- !ruby/object:Tag
+  attributes: 
+    id: 149
+    name: Usage-Getting_ready_to_go_out
+- !ruby/object:Tag
+  attributes: 
+    id: 150
+    name: Usage-Going_to_sleep
+- !ruby/object:Tag
+  attributes: 
+    id: 151
+    name: Usage-Hanging_with_friends
+- !ruby/object:Tag
+  attributes: 
+    id: 152
+    name: Usage-Intensely_Listening
+- !ruby/object:Tag
+  attributes: 
+    id: 153
+    name: Usage-Reading
+- !ruby/object:Tag
+  attributes: 
+    id: 154
+    name: Usage-Romancing
+- !ruby/object:Tag
+  attributes: 
+    id: 155
+    name: Usage-Sleeping
+- !ruby/object:Tag
+  attributes: 
+    id: 156
+    name: Usage-Studying
+- !ruby/object:Tag
+  attributes: 
+    id: 157
+    name: Usage-Waking_up
+- !ruby/object:Tag
+  attributes: 
+    id: 158
+    name: Usage-With_the_family
+- !ruby/object:Tag
+  attributes: 
+    id: 159
+    name: Vocals-Aggressive
+- !ruby/object:Tag
+  attributes: 
+    id: 160
+    name: Vocals-Altered_with_Effects
+- !ruby/object:Tag
+  attributes: 
+    id: 161
+    name: Vocals-Breathy
+- !ruby/object:Tag
+  attributes: 
+    id: 162
+    name: Vocals-Call_&_Response
+- !ruby/object:Tag
+  attributes: 
+    id: 163
+    name: Vocals-Duet
+- !ruby/object:Tag
+  attributes: 
+    id: 164
+    name: Vocals-Emotional
+- !ruby/object:Tag
+  attributes: 
+    id: 165
+    name: Vocals-Falsetto
+- !ruby/object:Tag
+  attributes: 
+    id: 166
+    name: Vocals-Gravelly
+- !ruby/object:Tag
+  attributes: 
+    id: 167
+    name: Vocals-High-pitched
+- !ruby/object:Tag
+  attributes: 
+    id: 168
+    name: Vocals-Low-pitched
+- !ruby/object:Tag
+  attributes: 
+    id: 169
+    name: Vocals-Monotone
+- !ruby/object:Tag
+  attributes: 
+    id: 170
+    name: Vocals-Rapping
+- !ruby/object:Tag
+  attributes: 
+    id: 171
+    name: Vocals-Screaming
+- !ruby/object:Tag
+  attributes: 
+    id: 172
+    name: Vocals-Spoken
+- !ruby/object:Tag
+  attributes: 
+    id: 173
+    name: Vocals-Strong
+- !ruby/object:Tag
+  attributes: 
+    id: 174
+    name: Vocals-Vocal_Harmonies

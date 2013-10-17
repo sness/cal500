@@ -1,0 +1,11 @@
+---
+- !ruby/object:Prediction
+  attributes: 
+    id: 1
+    name: Ground Truth
+    params: 
+- !ruby/object:Prediction
+  attributes: 
+    id: 2
+    name: Stacked Annotation
+    params: 

@@ -1,0 +1,21 @@
+# == Schema Information
+# Schema version: 20090512221956
+#
+# Table name: predictions
+#
+#  id         :integer(4)      not null, primary key
+#  name       :string(255)
+#  params     :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  params: MyString
+
+two:
+  name: MyString
+  params: MyString

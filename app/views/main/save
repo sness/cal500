@@ -1,0 +1,156 @@
+	<% if !@current_song.nil? %>
+	  <table>
+		<% @current_song.gt_tags.each do |n| %>
+		  <tr>
+			<td class="center"><%= link_to n.name, :action => 'songs', id => n %></td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+
+
+	<% if !@current_song.nil? %>
+	  <table>
+		<% @current_song.pred_tags.each do |n| %>
+		  <tr>
+			<td class="center"><%= link_to n.name, :action => 'songs', id => n %></td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+
+
+  <objectclassid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+        width="500"
+	 height="42"
+	 id="haxe"
+	 align="middle">
+<param name="movie" value="/simpleplay.swf"/>
+<param name="allowScriptAccess" value="always" />
+<param name="quality" value="high" />
+<param name="scale" value="noscale" />
+<param name="salign" value="lt" />
+<param name="bgcolor" value="#eeeeee"/>
+<embed src="/simpleplay.swf"
+	   FlashVars="song_url=CAL500_32/"
+       bgcolor="#eeeeee"
+       width="500"
+       height="42"
+       name="simpleplay"
+       quality="high"
+       align="middle"
+       allowScriptAccess="always"
+       type="application/x-shockwave-flash"
+       pluginspage="http://www.macromedia.com/go/getflashplayer"
+/>
+</object>
+
+
+------------------------------ artists.html.erb ------------------------------
+
+
+<div class="yui-gb">
+  <div class="yui-u first">
+	<h1>Artist</h1>
+	<table>
+	  <% @artists.each do |n| %>
+		<tr>
+		  <td class="center"><%= link_to n.name, :action => 'artists', :id => n %></td>
+		</tr>
+	  <% end %>
+	</table>
+  </div>
+  <div class="yui-u">
+
+	<h1>Ground Truth</h1>
+
+	<% if !@current_artist.nil? %>
+	  <table>
+		<% @gt_tags.each do |n| %>
+		  <tr>
+			<td class="center">
+			  <div
+				<% if @pred_tags.include? n %>
+				  class="match"
+				<% end %>
+				>
+
+			  <%= link_to n.name, :action => 'artists', id => n %>
+			  </div>
+			</td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+	
+  </div>
+  <div class="yui-u">
+	<h1>Prediction</h1>
+
+	<% if !@current_artist.nil? %>
+	  <table>
+		<% @pred_tags.each do |n| %>
+		  <tr>
+			<td class="center">
+			  <div
+				<% if @gt_tags.include? n %>
+				  class="match"
+				<% end %>
+				>
+			  <%= link_to n.name, :action => 'artists', id => n %>
+			</td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+
+  </div>
+</div>
+
+
+
+------------------------------ songs.html.erb ------------------------------
+
+<div class="yui-gb">
+  <div class="yui-u first">
+	<h1>Song</h1>
+	<table>
+	  <% @songs.each do |n| %>
+		<tr>
+		  <td class="center"><%= link_to n.name, :action => 'songs', :id => n %></td>
+		</tr>
+	  <% end %>
+	</table>
+  </div>
+  <div class="yui-u">
+
+	<h1>Ground Truth</h1>
+
+	<% if !@current_song.nil? %>
+	  <table>
+		<% @current_song.gt_tags.each do |n| %>
+		  <tr>
+			<td class="center"><%= link_to n.name, :action => 'songs', id => n %></td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+	
+  </div>
+  <div class="yui-u">
+	<h1>Prediction</h1>
+
+	<% if !@current_song.nil? %>
+	  <table>
+		<% @current_song.pred_tags.each do |n| %>
+		  <tr>
+			<td class="center"><%= link_to n.name, :action => 'songs', id => n %></td>
+		  </tr>
+		<% end %>
+	  </table>
+	<% end %>
+
+  </div>
+</div>
+
+

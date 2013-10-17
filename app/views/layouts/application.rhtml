@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <%= render :partial => '/layouts/xhtml_header' %>
+  <body>
+	
+			<div id="doc2">  
+			  
+			  <div id="header">
+				<%= render :partial => '/layouts/header' %>
+			  </div>   
+			  
+			  <div id="content">
+
+				<% if flash[:notice] -%>
+				  <div class="notice">
+					<%= flash[:notice] %>
+				  </div>
+				<% end %>
+
+				<%= yield %>
+			  </div>
+			  
+			  <div id="footer">
+				<%= render :partial => '/layouts/footer' %>
+			  </div>   
+			  
+			</div>  
+  </body>
+</html>

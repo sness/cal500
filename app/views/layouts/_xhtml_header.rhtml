@@ -1,0 +1,42 @@
+<head>
+  <title>syne</title>
+
+  <%= stylesheet_link_tag "reset-fonts-grids", :media => "screen, projection" %>
+  <%= stylesheet_link_tag "cal500", :media => "screen, projection" %>
+  
+
+<bgsound src="#" id="soundeffect" loop=1 autostart="true" />
+
+<script type="text/javascript">
+
+/***********************************************
+* JavaScript Sound effect- ? Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+var soundfile="/troggs-wild_thing.wav" //path to sound file, or pass in filename directly into playsound()
+
+function playsound(soundfile){
+  if (document.all && document.getElementById){
+    document.getElementById("soundeffect").src="" //reset first in case of problems
+    document.getElementById("soundeffect").src=soundfile
+  }
+}
+
+function bindsound(tag, soundfile, masterElement){
+  if (!window.event) return
+  var source=event.srcElement
+  while (source!=masterElement && source.tagName!="HTML"){
+    if (source.tagName==tag.toUpperCase()){
+      playsound(soundfile)
+      break
+    }
+    source=source.parentElement
+  }
+}
+
+</script>
+</head>
+
+
